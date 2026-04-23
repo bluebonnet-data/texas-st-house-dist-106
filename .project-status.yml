@@ -1,8 +1,12 @@
 project:
-  name: Joe Mayes
-  description: ''
-  tools: []
-  current_focus: ''
+  name: Precinct Impacts of Redistricting (PIoR) 
+  description: >
+    Database, mapping tools, and analysis to quantify impact on precinct-level composition after redistricting.
+    Scope is initially motivated by Texas redistricting. May be expanded to other states in the future. 
+  tools:
+    - "python"
+    - "GIS"
+  current_focus: "Scraping relevant base dataset" 
   needs: []
   links:
     docs: ''
@@ -12,6 +16,6 @@ project:
     lead: ''
     contributors: []
   campaign:
-    candidate: Joe Mayes
-    office: Texas State House District 106
+    candidate: Bluebonnet Internal
+    office: State Infrastructure
   auto_refresh: true
