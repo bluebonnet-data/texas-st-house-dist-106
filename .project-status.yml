@@ -1,12 +1,12 @@
 project:
-  name: Precinct Impacts of Redistricting (PIoR) 
-  description: >
-    Database, mapping tools, and analysis to quantify impact on precinct-level composition after redistricting.
-    Scope is initially motivated by Texas redistricting. May be expanded to other states in the future. 
+  name: Precinct Impacts of Redistricting (PIoR)
+  description: "Database, mapping tools, and analysis to quantify impact on precinct-level\
+    \ composition after redistricting. Scope is initially motivated by Texas redistricting.\
+    \ May be expanded to other states in the future. \n"
   tools:
-    - "python"
-    - "GIS"
-  current_focus: "Scraping relevant base dataset" 
+  - python
+  - GIS
+  current_focus: Scraping relevant base dataset
   needs: []
   links:
     docs: ''
@@ -14,7 +14,8 @@ project:
     production: ''
   team:
     lead: ''
-    contributors: []
+    contributors:
+    - flyingcape
   campaign:
     candidate: Bluebonnet Internal
     office: State Infrastructure
